@@ -1,5 +1,7 @@
 ﻿using LeetCode;
 
-LeetCodeSolution result = new();
+Solution solution = new();
 
-Console.WriteLine(result.TwoSum());
+int[] array = { 2, 7, 11, 15 };
+
+Console.WriteLine(solution.TwoSum(array, 9));
