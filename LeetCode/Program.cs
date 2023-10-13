@@ -9,8 +9,8 @@ long startMemory = Process.GetCurrentProcess().WorkingSet64;
 
 // Start
 
-int x = -121;
-solution.IsPalindrome(x);
+int[] x = { 2, 5, 5, 11 };
+solution.TwoSum(x, 10);
 
 // End
 
